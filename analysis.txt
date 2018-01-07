@@ -1,0 +1,17 @@
+//Honor Pledge: I pledge that I have neither
+//given nor received any undue help on this assignment.
+//
+//strangni
+//
+//CS 240 - Assignment 6 - Algorithm Discussion
+//Created by: Nicholas Strange
+
+	For Assignment 6, bubble sort and insertion sort were utilized to sort an array of integers.  For both algorithms, the worst-case scenario occurs
+when the array is sorted in reverse.  Since both algorithms utilize a double loop, the time complexity for this worst-case scenario is O(n^2).  Thus,
+neither bubble nor insertion sort are efficient for large arrays; many other algorithms have better complexities in the worst case.  In the best case, the 
+array is already sorted, which yields a time complexity of O(n) for both algorithms.  
+	Although both bubble and insertion sort have the same best- and worst-case time complexities, they won't always yield the same results.  Insertion
+sort is generally more efficient, especially for arrays that are mostly sorted. For each pass, it places an element in its correct position in the sorted section.  In 
+comparison, bubble sort bubbles the minima (or maxima for ascending order) out of the unsorted section one swap at a time, resulting in more total actions, 
+and therefore, time.
+
